@@ -3,6 +3,6 @@ import dataclasses
 
 @dataclasses.dataclass(eq=False)
 class OrderLine():
-    id: str
+    order_ref: str
     product_name: str
     quantity: int
